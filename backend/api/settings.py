@@ -58,6 +58,9 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
+
+AUTH_USER_MODEL ="user.CustomUser" 
+
 ROOT_URLCONF = 'api.urls'
 
 TEMPLATES = [
